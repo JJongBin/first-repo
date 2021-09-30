@@ -1,2 +1,5 @@
-for _ in range(5):
-  print("I'm on branch stem")
+status = 3
+if status % 3 == 0:
+  print('zero')
+else:
+  print(status)
